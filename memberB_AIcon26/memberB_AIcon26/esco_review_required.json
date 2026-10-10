@@ -1,0 +1,128 @@
+[
+  {
+    "input_skill": "build dashboards",
+    "status": "REVIEW_REQUIRED",
+    "candidates": [
+      {
+        "label": "install construction profiles",
+        "esco_id": "http://data.europa.eu/esco/skill/8ed53702-3e4e-4637-a4c3-9dc8f4281019",
+        "similarity_score": 0.4806
+      },
+      {
+        "label": "build recommender systems",
+        "esco_id": "http://data.europa.eu/esco/skill/505e4ef3-7ce4-437d-b7b4-5c608f71c258",
+        "similarity_score": 0.4617
+      },
+      {
+        "label": "design chassis",
+        "esco_id": "http://data.europa.eu/esco/skill/af1d906a-c13d-4de1-a362-6980e6dc9937",
+        "similarity_score": 0.446
+      }
+    ]
+  },
+  {
+    "input_skill": "analyze customer data",
+    "status": "REVIEW_REQUIRED",
+    "candidates": [
+      {
+        "label": "collect customer data",
+        "esco_id": "http://data.europa.eu/esco/skill/a3e7ebba-5183-4df8-9203-35b9b9b8f4fa",
+        "similarity_score": 0.8182
+      },
+      {
+        "label": "analyse data about clients",
+        "esco_id": "http://data.europa.eu/esco/skill/d63f49de-cb72-4ce3-9553-a374a4f32f52",
+        "similarity_score": 0.7586
+      },
+      {
+        "label": "assess customers",
+        "esco_id": "http://data.europa.eu/esco/skill/64f2c90c-4144-418e-82c6-3150e03d29a3",
+        "similarity_score": 0.7531
+      }
+    ]
+  },
+  {
+    "input_skill": "perform statistical analysis",
+    "status": "REVIEW_REQUIRED",
+    "candidates": [
+      {
+        "label": "apply statistical analysis techniques",
+        "esco_id": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+        "similarity_score": 0.8208
+      },
+      {
+        "label": "perform data analysis",
+        "esco_id": "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+        "similarity_score": 0.7932
+      },
+      {
+        "label": "develop statistical software",
+        "esco_id": "http://data.europa.eu/esco/skill/bb165899-d95f-4433-95f2-173fefd716d2",
+        "similarity_score": 0.7442
+      }
+    ]
+  },
+  {
+    "input_skill": "TensorFlow",
+    "status": "REVIEW_REQUIRED",
+    "candidates": [
+      {
+        "label": "computer vision",
+        "esco_id": "http://data.europa.eu/esco/skill/7b0d5000-00da-4864-b776-6de49a87a669",
+        "similarity_score": null
+      },
+      {
+        "label": "deep learning",
+        "esco_id": "http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080",
+        "similarity_score": 0.5366
+      },
+      {
+        "label": "artificial neural networks",
+        "esco_id": "http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4",
+        "similarity_score": 0.4474
+      }
+    ]
+  },
+  {
+    "input_skill": "LangChain",
+    "status": "REVIEW_REQUIRED",
+    "candidates": [
+      {
+        "label": "Javanese",
+        "esco_id": "http://data.europa.eu/esco/skill/7a86907d-1fd5-4e8f-b0f1-f366a14f6f6d",
+        "similarity_score": 0.4894
+      },
+      {
+        "label": "Dutch",
+        "esco_id": "http://data.europa.eu/esco/skill/cad4f44b-28a8-4448-86e5-7389e5ebf3eb",
+        "similarity_score": 0.4775
+      },
+      {
+        "label": "Turkish",
+        "esco_id": "http://data.europa.eu/esco/skill/aa66a033-8522-40e9-a5c0-ff2593e2669c",
+        "similarity_score": 0.4746
+      }
+    ]
+  },
+  {
+    "input_skill": "Next.js",
+    "status": "REVIEW_REQUIRED",
+    "candidates": [
+      {
+        "label": "JavaScript",
+        "esco_id": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
+        "similarity_score": 0.5061
+      },
+      {
+        "label": "JSSS",
+        "esco_id": "http://data.europa.eu/esco/skill/8785ccda-6f9f-4cf3-9033-fda10653d0be",
+        "similarity_score": 0.491
+      },
+      {
+        "label": "JavaScript Framework",
+        "esco_id": "http://data.europa.eu/esco/skill/9b9de2a4-d8af-4a7b-933a-a8334ae60067",
+        "similarity_score": 0.4026
+      }
+    ]
+  }
+]

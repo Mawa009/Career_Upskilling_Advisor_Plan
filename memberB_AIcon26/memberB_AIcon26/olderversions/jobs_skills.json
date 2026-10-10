@@ -1,0 +1,28 @@
+
+[
+  {
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "label": "Python (computer programming)",
+    "importance": 0.7
+  },
+  {
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "label": "SQL",
+    "importance": 0.7
+  },
+  {
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "label": "data visualisation software",
+    "importance": 0.7
+  },
+  {
+    "esco_id": "http://data.europa.eu/esco/skill/d63f49de-cb72-4ce3-9553-a374a4f32f52",
+    "label": "analyse data about clients",
+    "importance": 0.7
+  },
+  {
+    "esco_id": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+    "label": "apply statistical analysis techniques",
+    "importance": 0.7
+  }
+]
