@@ -1,0 +1,9 @@
+course_id,title,description,esco_skill_ids,difficulty,estimated_hours,prerequisites,resource_url
+c01,SQL Basics,Learn to write simple SQL queries,skill_sql,beginner,6,,https://example.com/c01
+c02,Advanced SQL,"Joins, subqueries and window functions",skill_sql,advanced,12,c01,https://example.com/c02
+c03,Python for Beginners,First steps with Python programming,skill_python,beginner,10,,https://example.com/c03
+c04,Data Visualisation 101,Build charts and dashboards,skill_viz,beginner,8,,https://example.com/c04
+c05,Statistics Foundations,"Averages, probability and distributions",skill_stats,beginner,14,,https://example.com/c05
+c06,Excel Essentials,"Formulas, tables and pivot tables",skill_excel,beginner,5,,https://example.com/c06
+c07,Data Analysis with Python,Analyse data using pandas and charts,skill_python|skill_viz,intermediate,20,c03,https://example.com/c07
+c08,Data Analyst Bootcamp,"SQL, Python and statistics in one course",skill_sql|skill_python|skill_stats,intermediate,40,,https://example.com/c08

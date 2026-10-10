@@ -1,0 +1,27 @@
+[
+  {
+    "course_id": "c01",
+    "score": 0.12,
+    "reason": "Teaches SQL (priority 0.72) in 6 hours"
+  },
+  {
+    "course_id": "c08",
+    "score": 0.0357,
+    "reason": "Teaches SQL (priority 0.72), Python (priority 0.35), Statistics (priority 0.36) in 40 hours"
+  },
+  {
+    "course_id": "c03",
+    "score": 0.035,
+    "reason": "Teaches Python (priority 0.35) in 10 hours"
+  },
+  {
+    "course_id": "c05",
+    "score": 0.0257,
+    "reason": "Teaches Statistics (priority 0.36) in 14 hours"
+  },
+  {
+    "course_id": "c04",
+    "score": 0.02,
+    "reason": "Teaches Data visualisation (priority 0.16) in 8 hours"
+  }
+]

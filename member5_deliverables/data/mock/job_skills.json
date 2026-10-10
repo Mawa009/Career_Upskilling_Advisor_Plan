@@ -1,0 +1,27 @@
+[
+  {
+    "esco_id": "skill_sql",
+    "label": "SQL",
+    "importance": 0.9
+  },
+  {
+    "esco_id": "skill_viz",
+    "label": "Data visualisation",
+    "importance": 0.8
+  },
+  {
+    "esco_id": "skill_python",
+    "label": "Python",
+    "importance": 0.7
+  },
+  {
+    "esco_id": "skill_stats",
+    "label": "Statistics",
+    "importance": 0.6
+  },
+  {
+    "esco_id": "skill_excel",
+    "label": "Excel",
+    "importance": 0.4
+  }
+]
