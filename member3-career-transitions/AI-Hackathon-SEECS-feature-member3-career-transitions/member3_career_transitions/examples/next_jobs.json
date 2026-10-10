@@ -1,0 +1,4 @@
+[
+  {"occupation_id": "ESCO_CODE_B", "label": "ESCO_CODE_B", "probability": 0.6666666667},
+  {"occupation_id": "ESCO_CODE_C", "label": "ESCO_CODE_C", "probability": 0.3333333333}
+]
