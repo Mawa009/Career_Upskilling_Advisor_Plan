@@ -1,0 +1,36 @@
+{
+  "esco_version": "v1.2.1",
+  "source": "ESCO dataset - v1.2.1 - classification - en - csv",
+  "mappings": [
+    {
+      "quiz_skill": "Sql",
+      "esco_uri": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+      "preferred_label": "SQL",
+      "status": "direct"
+    },
+    {
+      "quiz_skill": "Python",
+      "esco_uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+      "preferred_label": "Python (computer programming)",
+      "status": "direct"
+    },
+    {
+      "quiz_skill": "Visualization",
+      "esco_uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+      "preferred_label": "data visualisation software",
+      "status": "provisional_broader_than_quiz"
+    },
+    {
+      "quiz_skill": "statistics",
+      "esco_uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "preferred_label": "statistics",
+      "status": "direct"
+    },
+    {
+      "quiz_skill": "project management",
+      "esco_uri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+      "preferred_label": "project management",
+      "status": "direct"
+    }
+  ]
+}

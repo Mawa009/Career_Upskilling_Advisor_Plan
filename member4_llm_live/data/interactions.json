@@ -1,0 +1,128 @@
+[
+  {
+    "learner_id": "L001",
+    "question_id": "SQL_001",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:00:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "SQL_002",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:01:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "SQL_003",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:02:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "SQL_004",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:03:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "SQL_005",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:04:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "SQL_006",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:05:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "PYT_001",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:06:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "PYT_002",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:07:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "PYT_003",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:08:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "PYT_004",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:09:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "PYT_005",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:10:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "PYT_006",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:11:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "VIS_001",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:12:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "VIS_002",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:13:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "VIS_003",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:14:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "VIS_004",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:15:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "VIS_005",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "correct": 0,
+    "timestamp": "2026-10-10T09:16:00+00:00"
+  },
+  {
+    "learner_id": "L001",
+    "question_id": "VIS_006",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "correct": 1,
+    "timestamp": "2026-10-10T09:17:00+00:00"
+  }
+]

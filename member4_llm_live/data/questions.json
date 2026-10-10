@@ -1,0 +1,1178 @@
+[
+  {
+    "question_id": "SQL_001",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "filtering",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which SQL clause selects rows that meet a condition?",
+    "options": [
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY",
+      "SELECT"
+    ],
+    "correct_answer": 0,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_002",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "select",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which SQL statement retrieves data from a table?",
+    "options": [
+      "INSERT",
+      "SELECT",
+      "DROP",
+      "UPDATE"
+    ],
+    "correct_answer": 1,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_003",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "distinct",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which keyword removes duplicate rows from a SELECT result?",
+    "options": [
+      "UNIQUE",
+      "ONLY",
+      "DISTINCT",
+      "EXCEPT"
+    ],
+    "correct_answer": 2,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_004",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "sorting",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does ORDER BY do?",
+    "options": [
+      "Groups rows",
+      "Sorts results",
+      "Deletes rows",
+      "Joins tables"
+    ],
+    "correct_answer": 1,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_005",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "aggregation",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which aggregate counts non-NULL values in column age?",
+    "options": [
+      "COUNT(age)",
+      "SUM(age)",
+      "LEN(age)",
+      "AVG(*)"
+    ],
+    "correct_answer": 0,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_006",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "joins",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which JOIN returns only matching rows from both tables?",
+    "options": [
+      "LEFT JOIN",
+      "FULL JOIN",
+      "INNER JOIN",
+      "CROSS JOIN"
+    ],
+    "correct_answer": 2,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_007",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "grouping",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which clause filters aggregated groups?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "LIMIT"
+    ],
+    "correct_answer": 1,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_008",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "grouping",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which query counts employees by department?",
+    "options": [
+      "SELECT department, COUNT(*) FROM employees GROUP BY department",
+      "SELECT COUNT(department) FROM employees ORDER BY department",
+      "SELECT department FROM employees HAVING COUNT(*)",
+      "SELECT department, COUNT(*) FROM employees"
+    ],
+    "correct_answer": 0,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_009",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "windows",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Which function assigns a consecutive number within each partition, based on an ORDER BY?",
+    "options": [
+      "COUNT(*)",
+      "ROW_NUMBER()",
+      "COALESCE()",
+      "ROUND()"
+    ],
+    "correct_answer": 1,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_010",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "subqueries",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Which query retains employees whose salary is greater than the average salary?",
+    "options": [
+      "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees)",
+      "SELECT * FROM employees WHERE salary > AVG(salary)",
+      "SELECT * FROM employees GROUP BY salary > AVG(salary)",
+      "SELECT * FROM employees HAVING salary > AVG(salary)"
+    ],
+    "correct_answer": 0,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_011",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "joins",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "How can you return every customer and their order count, including customers with no orders?",
+    "options": [
+      "INNER JOIN orders and COUNT(*)",
+      "LEFT JOIN orders and COUNT(orders.order_id)",
+      "RIGHT JOIN orders and COUNT(*)",
+      "CROSS JOIN orders and COUNT(*)"
+    ],
+    "correct_answer": 1,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "SQL_012",
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_label": "SQL",
+    "topic": "windows",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "What is the purpose of PARTITION BY in a window function?",
+    "options": [
+      "Filters rows before WHERE",
+      "Groups rows without returning results",
+      "Defines groups for window calculations without collapsing rows",
+      "Makes an index"
+    ],
+    "correct_answer": 2,
+    "esco_label": "SQL",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_001",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "types",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which literal creates a Python list?",
+    "options": [
+      "(1, 2)",
+      "[1, 2]",
+      "{1: 2}",
+      "\"1,2\""
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_002",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "lists",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What is the value of len([10, 20, 30])?",
+    "options": [
+      "2",
+      "3",
+      "30",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_003",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "functions",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which keyword defines a function?",
+    "options": [
+      "func",
+      "lambda",
+      "def",
+      "function"
+    ],
+    "correct_answer": 2,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_004",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "operators",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does == test?",
+    "options": [
+      "Assignment",
+      "Equality",
+      "Identity only",
+      "Multiplication"
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_005",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "loops",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "What does list(range(2, 5)) return?",
+    "options": [
+      "[2,3,4]",
+      "[2,3,4,5]",
+      "[0,1,2,3,4]",
+      "[3,4,5]"
+    ],
+    "correct_answer": 0,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_006",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "comprehensions",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "What does [x*x for x in [1,2,3]] return?",
+    "options": [
+      "[1,2,3]",
+      "[1,4,9]",
+      "[2,4,6]",
+      "[1,8,27]"
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_007",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "dicts",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "What is returned by {\"a\": 1}.get(\"b\", 0)?",
+    "options": [
+      "None",
+      "Error",
+      "0",
+      "1"
+    ],
+    "correct_answer": 2,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_008",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "pandas",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "What does df.head(3) return in pandas?",
+    "options": [
+      "Last 3 rows",
+      "First 3 rows",
+      "First 3 columns",
+      "3 random rows"
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_009",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "sorting",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "What does sorted([(\"a\",2),(\"b\",1)], key=lambda x: x[1]) return?",
+    "options": [
+      "[(\"a\",2),(\"b\",1)]",
+      "[(\"b\",1),(\"a\",2)]",
+      "[1,2]",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_010",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "pandas",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Which pandas operation groups by department and computes mean salary?",
+    "options": [
+      "df.groupby(\"department\")[\"salary\"].mean()",
+      "df[\"department\"].mean(\"salary\")",
+      "df.mean().groupby(\"department\")",
+      "df.sort_values(\"department\").mean()"
+    ],
+    "correct_answer": 0,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_011",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "iteration",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "What does enumerate([\"a\",\"b\"], start=1) produce when converted to list?",
+    "options": [
+      "[(0,\"a\"),(1,\"b\")]",
+      "[(1,\"a\"),(2,\"b\")]",
+      "[(\"a\",1),(\"b\",2)]",
+      "[\"a\",\"b\"]"
+    ],
+    "correct_answer": 1,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PYT_012",
+    "esco_id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "skill_label": "Python",
+    "topic": "collections",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Which expression safely produces unique values from list xs, without preserving order?",
+    "options": [
+      "list(set(xs))",
+      "xs.unique()",
+      "list(dict(xs))",
+      "xs.distinct()"
+    ],
+    "correct_answer": 0,
+    "esco_label": "Python (computer programming)",
+    "esco_mapping_status": "direct",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "VIS_001",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "chart_selection",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which chart best shows changes in sales over months?",
+    "options": [
+      "Pie chart",
+      "Line chart",
+      "Scatter plot",
+      "Treemap"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_002",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "chart_selection",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which chart is usually appropriate for comparing category totals?",
+    "options": [
+      "Bar chart",
+      "Histogram",
+      "Heatmap",
+      "Line chart"
+    ],
+    "correct_answer": 0,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_003",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "axes",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does the horizontal axis usually represent in a standard time-series chart?",
+    "options": [
+      "Time",
+      "Color",
+      "Source",
+      "Sample size"
+    ],
+    "correct_answer": 0,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_004",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "legends",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does a chart legend explain?",
+    "options": [
+      "The data source only",
+      "The meaning of plotted colors or symbols",
+      "The axis limits only",
+      "The average value"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_005",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "distribution",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which chart best displays the distribution of one continuous variable?",
+    "options": [
+      "Pie chart",
+      "Histogram",
+      "Stacked bar",
+      "Flowchart"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_006",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "scatter",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which chart is suitable for showing the relationship between two quantitative variables?",
+    "options": [
+      "Scatter plot",
+      "Pie chart",
+      "Donut chart",
+      "Table of contents"
+    ],
+    "correct_answer": 0,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_007",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "axes",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "A bar chart starts its y-axis at 95 rather than 0. What is the concern?",
+    "options": [
+      "It always improves accuracy",
+      "It may exaggerate differences",
+      "It removes outliers",
+      "It changes values"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_008",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "accessibility",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which use of color improves accessibility?",
+    "options": [
+      "Rely only on red and green",
+      "Use distinguishable colors plus direct labels",
+      "Use maximum saturation for every category",
+      "Remove the legend"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_009",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "normalization",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "When categories have substantially different sample sizes, which measure is usually better for comparing conversion?",
+    "options": [
+      "Raw conversion counts",
+      "Conversion rates with denominators",
+      "Total site sessions",
+      "Maximum category size"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_010",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "interpretation",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Two variables correlate strongly. Which conclusion is justified?",
+    "options": [
+      "One causes the other",
+      "No confounder exists",
+      "They vary together; causation is not established",
+      "The sample is unbiased"
+    ],
+    "correct_answer": 2,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_011",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "uncertainty",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "What is a good way to show uncertainty around a mean estimate?",
+    "options": [
+      "Remove axis labels",
+      "Add a confidence interval when justified",
+      "Use a 3D pie chart",
+      "Sort alphabetically"
+    ],
+    "correct_answer": 1,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "VIS_012",
+    "esco_id": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
+    "skill_label": "Data visualization",
+    "topic": "distribution",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Which plot can compare a numeric distribution across several categories?",
+    "options": [
+      "Box plots by category",
+      "One pie chart per data point",
+      "Single KPI number",
+      "Network topology diagram"
+    ],
+    "correct_answer": 0,
+    "esco_label": "data visualisation software",
+    "esco_mapping_status": "provisional_broader_than_quiz",
+    "content_review": "draft_expert_review_required",
+    "assessment_note": "Chart literacy only: insufficient evidence of data visualisation software operation."
+  },
+  {
+    "question_id": "STA_001",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "descriptive statistics",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does the median represent in a numerical dataset?",
+    "options": [
+      "The most frequent value",
+      "The central ordered value",
+      "The maximum minus minimum",
+      "The arithmetic sum divided by count"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "The median is the middle ordered observation (or mean of the middle two).",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_002",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "descriptive statistics",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which statistic is most directly affected by extreme values?",
+    "options": [
+      "Median",
+      "Mode",
+      "Mean",
+      "Interquartile range"
+    ],
+    "correct_answer": 2,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "The arithmetic mean incorporates all values and is sensitive to extreme observations.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_003",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "data summaries",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "For a categorical variable such as department, which summary is most appropriate?",
+    "options": [
+      "Category counts",
+      "Standard deviation",
+      "Pearson correlation",
+      "Arithmetic mean"
+    ],
+    "correct_answer": 0,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Counts or proportions summarize categories.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_004",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "dispersion",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does the standard deviation describe?",
+    "options": [
+      "Central rank",
+      "Typical spread around the mean",
+      "Number of missing entries",
+      "Sample size"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Standard deviation measures dispersion around the mean.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_005",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "descriptive statistics",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "A dataset is [2, 4, 6, 8]. What is its mean?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "(2+4+6+8)/4 = 5.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_006",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "sampling",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "A survey samples 200 people using a random sample from a population. Which is a sample statistic?",
+    "options": [
+      "The true population mean",
+      "The sample mean",
+      "The population size",
+      "The parameter of the distribution"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "A sample mean is computed from observed sample data.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_007",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "association",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "When two variables have a strong positive correlation, what is supported?",
+    "options": [
+      "X necessarily causes Y",
+      "The variables tend to increase together",
+      "There is no association",
+      "Y necessarily causes X"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Positive correlation describes association, not causation.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_008",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "statistical tests",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "Which procedure is appropriate for comparing the means of two independent groups when assumptions are met?",
+    "options": [
+      "Two-sample t-test",
+      "Chi-square goodness-of-fit test",
+      "Pearson correlation",
+      "One-sample proportion z-test"
+    ],
+    "correct_answer": 0,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "A two-sample t-test compares means of two independent groups under suitable assumptions.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_009",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "confidence intervals",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "A 95% confidence interval built by a valid repeated-sampling procedure has which interpretation?",
+    "options": [
+      "95% probability this fixed interval contains the fixed parameter",
+      "95% of individual observations are inside it",
+      "Across repeated samples, 95% of constructed intervals contain the true parameter",
+      "The null hypothesis is true with 95% probability"
+    ],
+    "correct_answer": 2,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Coverage refers to the long-run fraction of intervals containing the fixed parameter.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_010",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "hypothesis testing",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "If a statistical test yields p = 0.03, which statement is justified?",
+    "options": [
+      "The null hypothesis has a 3% probability of being true",
+      "Under the null model, a result at least this extreme has probability 3%",
+      "The effect has a 97% probability of being real",
+      "The effect size is exactly 0.03"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "A p-value is a tail probability conditional on the null model.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_011",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "proportions",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Two groups have different sample sizes: A has 4 successes out of 10, B has 30 successes out of 100. Which has the higher observed success rate?",
+    "options": [
+      "A, with 40%",
+      "B, with 30%",
+      "They are equal",
+      "Cannot compare because sample sizes differ"
+    ],
+    "correct_answer": 0,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "4/10 = 40%, while 30/100 = 30%.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "STA_012",
+    "esco_id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+    "skill_label": "statistics",
+    "topic": "robust statistics",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "For a heavily right-skewed income distribution, which pair usually better describes central tendency and spread robustly?",
+    "options": [
+      "Mean and standard deviation",
+      "Median and interquartile range",
+      "Maximum and range",
+      "Mode and variance"
+    ],
+    "correct_answer": 1,
+    "esco_label": "statistics",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Median and IQR are less affected by a long right tail.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_001",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "planning",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What is a project milestone?",
+    "options": [
+      "A recurring salary payment",
+      "A significant point or event in project progress",
+      "Any team member",
+      "The budget spreadsheet"
+    ],
+    "correct_answer": 1,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Milestones mark important achievements or decision points.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_002",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "planning",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "What does a project deadline specify?",
+    "options": [
+      "The planned latest completion time",
+      "The total headcount",
+      "The document version",
+      "The cost per hour"
+    ],
+    "correct_answer": 0,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Deadlines are time constraints on deliverables or activities.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_003",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "scope",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "Which document clarifies what work is included and excluded from a project?",
+    "options": [
+      "Scope statement",
+      "Payroll register",
+      "Meeting attendance sheet",
+      "Expense receipt"
+    ],
+    "correct_answer": 0,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "A project scope statement defines boundaries and deliverables.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_004",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "stakeholders",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "prompt": "In project management, a stakeholder is best defined as:",
+    "options": [
+      "Only the project sponsor",
+      "Anyone who can affect, be affected by, or perceive themselves affected by the project",
+      "Only a paid contractor",
+      "Only the project manager"
+    ],
+    "correct_answer": 1,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Stakeholders include affected or influential parties beyond the core team.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_005",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "scheduling",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "A task cannot start until another task finishes. What is this relationship?",
+    "options": [
+      "Finish-to-start dependency",
+      "Start-to-start dependency",
+      "Finish-to-finish dependency",
+      "No dependency"
+    ],
+    "correct_answer": 0,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Finish-to-start requires the predecessor to finish before the successor starts.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_006",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "monitoring",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "A project is behind schedule. What is the best first step?",
+    "options": [
+      "Hide the delay until the deadline",
+      "Assess causes, dependencies and impact on the plan",
+      "Ask everyone to work unpaid overtime immediately",
+      "Delete quality checks automatically"
+    ],
+    "correct_answer": 1,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Diagnosing the impact precedes choosing an appropriate corrective action.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_007",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "risk management",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "What is the primary purpose of a risk register?",
+    "options": [
+      "Track uncertain events, likelihood, impact and responses",
+      "List completed timesheets",
+      "Store source code",
+      "Replace the project budget"
+    ],
+    "correct_answer": 0,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Risk registers record and manage identified threats and opportunities.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_008",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "change control",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "prompt": "A stakeholder requests new work that was not in the agreed scope. What is the appropriate process?",
+    "options": [
+      "Add it without discussing trade-offs",
+      "Reject every change automatically",
+      "Evaluate the change request for scope, cost, schedule and approval",
+      "Assign it secretly to the team"
+    ],
+    "correct_answer": 2,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Formal change control evaluates impacts and authorizes scope changes.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_009",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "critical path",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "Tasks A (3 days) and B (5 days) start together. Task C (2 days) starts only after both finish. With no constraints or lags, earliest finish is:",
+    "options": [
+      "7 days",
+      "10 days",
+      "5 days",
+      "8 days"
+    ],
+    "correct_answer": 0,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "B is the longer predecessor; 5 + 2 = 7 days.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_010",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "critical path",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "A task on the critical path is delayed by 2 days, with no available slack or mitigation. What typically happens?",
+    "options": [
+      "The finish date moves 2 days later",
+      "The budget necessarily falls",
+      "The finish date stays unchanged",
+      "The scope automatically shrinks"
+    ],
+    "correct_answer": 0,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Delay on a zero-float critical path delays project completion without recovery.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_011",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "earned value",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "A project has planned value PV = 100 and earned value EV = 80. What is schedule variance SV = EV - PV?",
+    "options": [
+      "20",
+      "-20",
+      "0",
+      "180"
+    ],
+    "correct_answer": 1,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "SV = 80 - 100 = -20, indicating behind schedule in earned-value terms.",
+    "content_review": "draft_expert_review_required"
+  },
+  {
+    "question_id": "PM_012",
+    "esco_id": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388",
+    "skill_label": "project management",
+    "topic": "risk response",
+    "difficulty": "advanced",
+    "question_type": "mcq",
+    "prompt": "A risk is high probability and high impact. Which response is generally most defensible?",
+    "options": [
+      "Ignore until it occurs",
+      "Evaluate mitigation, avoidance or other suitable response promptly",
+      "Treat it as already realized",
+      "Remove it from reporting"
+    ],
+    "correct_answer": 1,
+    "esco_label": "project management",
+    "esco_mapping_status": "direct",
+    "answer_rationale": "Material risks should receive an explicit and proportionate response strategy.",
+    "content_review": "draft_expert_review_required"
+  }
+]
